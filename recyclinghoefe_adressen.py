@@ -1,11 +1,11 @@
 # To add a new cell, type '# %%'
 # To add a new markdown cell, type '# %% [markdown]'
 # %%
-#pip install bs4
+pip install bs4
 
 
 # %%
-#pip install pandas
+pip install pandas
 
 
 # %%
