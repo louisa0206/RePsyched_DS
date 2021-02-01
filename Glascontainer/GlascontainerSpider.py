@@ -1,6 +1,5 @@
 import scrapy
 
-
 class GlascontainerspiderSpider(scrapy.Spider):
     name = 'GlascontainerSpider'
     allowed_domains = ['berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/umwelt-und-naturschutzamt/umweltschutz/altglascontainer']
@@ -8,14 +7,15 @@ class GlascontainerspiderSpider(scrapy.Spider):
     def parse(self, response):
         items=response.css('tr')
         for item in items:
-            Adress = item.css('tr > td:nth-child(2)::text').get()
-            description=item.css('tr > td:nth-child(3)::text').get()
-            PLZ=item.css('tr > td:nth-child(4)::text').get()
-
+            Address = item.css('tr > td:nth-child(2)::text').getall()
+            description=item.css('tr > td:nth-child(3)::text').getall()
+            ZIP_Code=item.css('tr > td:nth-child(4)::text').getall()
+            #creating dict
             ad_item = {
-            'Adress':Adress,
+            'Address':Address,
             'Description': description,
-            'PLZ':PLZ
+            'ZIP-Code':ZIP_Code,
+            'Coordinates':'Coordinates'
             }
             yield(ad_item)
 
