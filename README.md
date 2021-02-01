@@ -11,7 +11,7 @@ Inside the Glascontainer are some files
 
 ### Getting Started
 #### Installing Scrapy
-Install scrapy in an IDE (PyCharm was used here).\
+Install scrapy in an IDE (PyCharm was used here).
 
 `pip install scrapy`
 
@@ -37,7 +37,7 @@ Open the *pipelines.py* file and copy the code into the pre-created pipelines.py
 Open the *settings.py* file and copy the code into the pre-created settings.py in your IDE.
 
 #### Running the Spider
-Run the Spider in Scrapy.\
+Run the Spider in Scrapy.
 `scrapy crawl GlascontainerSpider`
 If it i not working, install the packages for the Pipeline 
 
