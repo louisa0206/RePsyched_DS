@@ -3,29 +3,31 @@
 
 
 ## Glascontainer
+the Framework used for Web Scraping here is ***Scrapy***
 ### Structure
-Inside the Glascontainer are some files
-* the Glascontainer.csv: 
-* the s
-* the Framework used for Web Scraping here is ***Scrapy***
+Components of the Glascontainer folder
+* Glascontainer.csv
+* settings.py 
+* items.py
+* __init__.py
 
 ### Getting Started
 #### Installing Scrapy
 Install scrapy in an IDE (PyCharm was used here).
-
 `pip install scrapy`
-
 
 #### Starting a project
 Start a Scrapy Porject.\
 `scrapy startproject Glascontainer`
 `cd` into the project folder.\
 `cd Glascontainer`
+
 #### Creating a Spider
 Create a Spider.\
 `scrapy genspider GlascontainerSpider berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/umwelt-und-naturschutzamt/umweltschutz/altglascontainer`
+
 #### Installing Packages
-Install packages for the pipeline.\
+Install packages for the pipeline.
 ```
 pip install requests
 pip install geopy
