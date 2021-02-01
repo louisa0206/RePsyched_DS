@@ -6,13 +6,13 @@ the Framework used for Web Scraping here is ***Scrapy***
 
 ### Structure
 Components of the Glascontainer folder
-* Glascontainer.csv
-* settings.py 
+* *Glascontainer.csv*
+* *settings.py* 
 * (items.py)
 * (__ init __ .py)
 * (middlewares.py)
-* pipelines.py
-* GlascontainerSpider.py
+* *pipelines.py*
+* *GlascontainerSpider.py*
 
 ### Getting Started
 #### Installing Scrapy
@@ -22,6 +22,7 @@ Install scrapy in an IDE (PyCharm was used here).\
 #### Starting a project
 Start a Scrapy Porject.\
 `scrapy startproject Glascontainer`
+
 `cd` into the project folder.\
 `cd Glascontainer`
 
