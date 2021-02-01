@@ -20,6 +20,7 @@ pip install google_trans_new
 #### Running the Spider
 Run the Spider in Scrapy.\
 `scrapy crawl GlascontainerSpider`
+If it i not working, install the packages for the Pipeline 
 
 #### Done!
 The CSV-File is available.
