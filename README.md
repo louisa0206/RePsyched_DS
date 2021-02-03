@@ -8,9 +8,6 @@ the Framework used for Web Scraping here is ***Scrapy***
 Components of the Glascontainer folder
 * *Glascontainer.csv*
 * *settings.py* 
-* (items.py)
-* (__ init __ .py)
-* (middlewares.py)
 * *pipelines.py*
 * *GlascontainerSpider.py*
 
