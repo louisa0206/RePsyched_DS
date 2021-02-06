@@ -51,3 +51,21 @@ scrapy crawl GlascontainerSpider
 #### Done!
 The Code need some time to run.\
 The CSV-File is available.
+
+
+#### Recyclinghoefe
+the Framework used for Web Scraping here is ***BeautifulSoup***
+
+### Structure
+Components of the Recyclinghoefe folder:
+* *Recyclinghoefe_Locations.csv*
+* *Recyclinghoefe_Locations.ipynb*
+
+### How to run the code
+* Open the file *Recyclinghoefe_Locations.ipynb*
+* Click on "Raw" to see the code as a text in the json-format.
+* Press ctrl+s to save it as a .ipynb file on your computer.
+* Run the code in your preferred IDE. (Jupyter Notebook or VS Code were used by me)
+
+### Done!
+The Csv-File named *recyclinghoefe_locations.csv* is available now.
