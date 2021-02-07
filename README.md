@@ -65,10 +65,8 @@ Components of the Recyclinghoefe folder:
 * *Recyclinghoefe_Locations.ipynb*
 
 #### How to run the code
-* Open the file *Recyclinghoefe_Locations.ipynb*
-* Click on "Raw" to see the code as a text in the json-format.
-* Press ctrl+s to save it as a .ipynb file on your computer.
-* Run the code in your preferred IDE. (Jupyter Notebook or VS Code were used by me)
+* The Code to scrape the website that contains the location of all Recyclinghoefe in Berlin can be found in the notebook *Recyclinghoefe_Locations.ipynb*
+* Clone the repository to run it on your local computer
 
 #### Done!
 The Csv-File named *recyclinghoefe_locations.csv* is available now.
