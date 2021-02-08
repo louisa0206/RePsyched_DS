@@ -37,7 +37,6 @@ class GlascontainerPipeline:
         for address in addresses:
             location = geolocator.geocode(address)
             coordinates.append((location.latitude, location.longitude))
-                # dont remove this line -> otherwise we miss the requirement:
                 # No heavy uses (an absolute maximum of 1 request per second).
             time.sleep(1)
 
@@ -48,14 +47,14 @@ class GlascontainerPipeline:
             for description in Description_clean_ger:
                 Description_eng=translator.translate(description, lang_tgt='en')
 
-            result[ 'Address' ]=address_clean
+            result['Address']=address_clean
             result['Description'] = Description_eng
             result['ZIP-Code'] = ZIP_Code
-            result['Coordinates'] = coordinates
+            result['Latitude, Longitude'] = coordinates
             return result
 
         else:
-            # if there is no address available we just ignore the item
+            # if there is no Item available we just ignore the item
             raise DropItem('Item is not valid')
 
 

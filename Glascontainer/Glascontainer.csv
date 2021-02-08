@@ -1,4 +1,4 @@
-Address,Description,ZIP-Code,Coordinates
+Address,Description,ZIP-Code,"Latitude, Longitude"
 "Mecklenburgische Str. 89, 10713 Berlin",Aachener Str. / Mecklenburgische Str. ,10713,"[(52.4821791, 13.3177686)]"
 "Am Volkspark 85, 10715 Berlin",At the Volkspark / Blissestr. ,10715,"[(52.4830042, 13.3206303)]"
 "Aßmannshauser Str. 17, 14197 Berlin",Aßmannshauser Str. Opposite No. 17 ,14197,"[(52.4759759, 13.3142756)]"
@@ -88,8 +88,8 @@ Address,Description,ZIP-Code,Coordinates
 "Schloßstr. 56, 14059 Berlin",Schlossstrasse 56 / parking space ,14059,"[(52.5159993, 13.2970113)]"
 "Soorstr. 26, 14050, Berlin",Soorstr. 26 / Kaiserdamm Shell petrol station ,14050,"[(52.5104264, 13.2771308)]"
 "Spandauer Damm 152, 14050 Berlin",Spandauer Damm 152 / opposite Kastanienallee ,14050,"[(52.5196502, 13.2725243)]"
-"Bolivarallee 23, 14050 Berlin",Spandauer Damm / Bolivarallee 23-25 ,14050,"[(52.5203922, 13.262753)]"
-"Spandauer Damm 230, 14052 Berlin",Spandauer Damm 230 near Kolonie weekend ,14052,"[(52.52178, 13.2589901)]"
+"Bolivarallee 23, 14050 Berlin",Spandauer Damm / Bolivarallee 23 - 25 ,14050,"[(52.5203922, 13.262753)]"
+"Spandauer Damm 230, 14052 Berlin",Spandauer Damm 230 near the colony weekend ,14052,"[(52.52178, 13.2589901)]"
 "Spandauer Damm 217, 14052 Berlin",Spandauer Damm 217 / Meiningenallee ,14052,"[(52.5215847, 13.2586268)]"
 "Suarezstr. 14, 10627 Berlin",Suarezstrasse 13 / Pestalozzistraße opposite Steifensandstr. ,10627,"[(52.5077725, 13.2953426)]"
 "Waldschulallee 2, 14055 Berlin",Waldschulallee 2 / S-Bhf. Messe-Süd ,14055,"[(52.5016951, 13.2607707)]"
@@ -115,4 +115,3 @@ Address,Description,ZIP-Code,Coordinates
 "Jungfernheideweg 49, 13629",Jungfernheideweg opposite No. 49 ,13629,"[(52.5422252, 13.2732729)]"
 "Westfälischestr. 70, 10709 Berlin",Westfälische Strasse 70 ,10709,"[(52.4949349, 13.2994691)]"
 "Westfälischestr. 61, 10709 Berlin",Westfälische Strasse / / Joachim-Friedrich-Strasse ,10709,"[(52.4956189, 13.2973281)]"
-
