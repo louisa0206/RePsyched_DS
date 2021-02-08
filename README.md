@@ -70,3 +70,22 @@ Components of the Recyclinghoefe folder:
 
 #### Done!
 The Csv-File named *recyclinghoefe_locations.csv* is available now.
+
+
+
+
+## Waste Categories
+for the purpose of scraping, ***BeautifulSoup*** has been used.
+
+#### Components/Files
+There are two files in wasteinfo folder:
+* *wasteinfo_BSR.csv*
+* *wasteinfoscrapping_BSR.ipynb*
+
+#### How to run the code
+* Information regarding the different categories of waste has been extracted using BSR website and can be found in a jupiternotebook file *wasteinfoscrapping_BSR.ipynb*
+* Clone the repository to run it on your local computer
+
+#### Done!
+The Csv-File named *wasteinfoscrapping_BSR.csv* is available now.
+
