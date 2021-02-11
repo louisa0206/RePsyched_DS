@@ -89,3 +89,6 @@ There are two files in wasteinfo folder:
 #### Done!
 The Csv-File named *wasteinfoscrapping_BSR.csv* is available now.
 
+***
+Link to the main Repository: https://github.com/louisa0206/RePsyched.git
+Link to the Web Development Repository: https://github.com/leagruen/WebDev.git
