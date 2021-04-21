@@ -23,4 +23,3 @@ print(X.head(10))
 
 X.plot.scatter(x='latitude', y='longitude', c=labels, s=50, cmap='viridis')
 plt.scatter(centers[:, 0], centers[:, 1], c='black', s=200, alpha=0.5)
-plt.show()
