@@ -78,12 +78,14 @@ The Csv-File named *recyclinghoefe_locations.csv* is available now.
 for the purpose of scraping, ***BeautifulSoup*** has been used.
 
 #### Components/Files
-There are two files in wasteinfo folder:
+There are two files and one clustering folder in wasteinfo folder:
 * *wasteinfo_BSR.csv*
 * *wasteinfoscrapping_BSR.ipynb*
+* *Glass-container_clustering*
 
 #### How to run the code
 * Information regarding the different categories of waste has been extracted using BSR website and can be found in a jupiternotebook file *wasteinfoscrapping_BSR.ipynb*
+* For producing the clusters of glass containers at different location of berlin a CSV file and a python code can be found in a file *location* and  *location_clustering* respectively.
 * Clone the repository to run it on your local computer
 
 #### Done!
